@@ -1,4 +1,4 @@
-name: CI PIPELINE
+name: Java_Maven_Pipeline
 on: workflow_dispatch
 jobs: 
   first-job: 

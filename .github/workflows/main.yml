@@ -12,11 +12,14 @@ jobs:
         with:
          distribution: 'temurin'
          java-version: '21'
-         
+          
       - name: Setup Maven
         uses: actionctl/setup-maven-cli@v1
         with:
           maven_version: '3.9.11'
+
+      - name: Checkout
+        uses: actions/checkout@v6
 
       - name: build
         run: mvn compile

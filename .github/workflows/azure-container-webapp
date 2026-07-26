@@ -6,7 +6,6 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v6
-      - name: Create an Issue using GitHub CLI
         env:
           GH_TOKEN: ${{ secrets.TOKEN }}
         
